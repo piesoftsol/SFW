@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Schema for test.",
+  "type": "object",
+  "minProperties": 2,
+  "maxProperties": 2,
+  "properties": {
+    "JUR": {
+      "id": "/properties/JUR",
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 2
+    },
+    "WC": {
+      "id": "/properties/WC",
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 4
+    }
+  },
+  "required": [
+    "JUR",
+    "WC"
+  ]
+}
